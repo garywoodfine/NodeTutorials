@@ -1,0 +1,22 @@
+{
+  "name": "nodetutorials",
+  "version": "1.0.0",
+  "description": "Code for a node tutorial series found on http://garywoodfine.com/http://garywoodfine.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threenine/NodeTutorials.git"
+  },
+  "author": "Gary Woodfine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/threenine/NodeTutorials/issues"
+  },
+  "homepage": "https://github.com/threenine/NodeTutorials#readme",
+  "devDependencies": {
+    "log4js": "^0.6.32"
+  }
+}
