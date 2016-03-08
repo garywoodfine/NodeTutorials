@@ -1,7 +1,7 @@
 {
   "name": "nodetutorials",
   "version": "1.0.0",
-  "description": "Code for a node tutorial series found on http://garywoodfine.com/http://garywoodfine.com/",
+  "description": "Code for a node tutorial series found on http://garywoodfine.com/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/threenine/NodeTutorials#readme",
   "devDependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
     "log4js": "^0.6.32"
   }
 }
