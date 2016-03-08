@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var app = require('../app');
-var debug = require('debug')('WebAPI:server');
+var debug = require('debug')('Website:server');
 var http = require('http');
 
 
