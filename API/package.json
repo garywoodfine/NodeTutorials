@@ -1,13 +1,19 @@
 {
   "name": "Geek.I.Am-API",
   "version": "0.0.1",
-  "description":"A sample Web API",
-
+  "description": "A sample Web API",
+  "author": "Gary Woodfine",
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/threenine/NodeTutorials.git"
+  },
   "devDependencies": {
     "body-parser": "^1.15.0",
+    "chalk": "^1.1.1",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-mocha": "^2.2.0",
+    "lodash": "^4.6.1",
     "mongoose": "^4.4.6"
   }
 }
