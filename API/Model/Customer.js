@@ -2,9 +2,11 @@
 var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
-var Customer = new Schema({
+var CustomerSchema = new Schema({
     firstname: {type:String},
     lastname:{type:String},
-    address:[Address]
+    address: [Address]
 
 });
+
+mongoose.model('Customer', CustomerSchema);
